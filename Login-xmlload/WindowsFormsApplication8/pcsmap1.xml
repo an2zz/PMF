@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <cars name ="A">
+    <year>1999</year>
+    <model>Civic</model>
+    <color>white;red</color>
+  </cars>
+  <cars name ="B">
+    <year>1998</year>
+    <model>Cibarl</model>
+    <color>white;black</color>
+  </cars>
+  <cars name ="C"/>
+    <year>1997</year>
+    <model>Cival</model>
+    <color>white;navy</color>
+  
+  
+</root>

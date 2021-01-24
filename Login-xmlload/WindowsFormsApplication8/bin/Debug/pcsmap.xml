@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<oci_pcsmap>
+
+<devs>
+<dev name="PCS_1" slaveid="1" input="" inputreadable="FALSE" output="pcs_o" outputreadable="TRUE"  demap="" demapreadable="FALSE" rsmap="" rsmapreadable="" eventactive="FALSE" description=""/>
+</devs>
+
+<pcs_o>
+<map pointno="1" name="GridFrequency" funccode="3" dmapid="" addressno="99" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[Hz]" scale="0.01" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="2" name="Average Voltage of 3-phase" funccode="3" dmapid="" addressno="100" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="3" name="Average Current of 3-phase" funccode="3" dmapid="" addressno="101" eventactive="FALSE" dataswap="FALSE" valuetype="uint" length="4" unit="[A]" scale="0.01" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="4" name="Apparent Power" funccode="3" dmapid="" addressno="103" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[KVA]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="5" name="Active Power" funccode="3" dmapid="" addressno="104" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[kW]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="6" name="Reactive Power" funccode="3" dmapid="" addressno="105" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[kVAR]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="7" name="Power Factor" funccode="3" dmapid="" addressno="106" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[%]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="8" name="Phase Voltage A" funccode="3" dmapid="" addressno="107" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="9" name="Phase Current A" funccode="3" dmapid="" addressno="108" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[A]" scale="0.01" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="10" name="Phase Voltage B" funccode="3" dmapid="" addressno="109" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="11" name="Phase Current B" funccode="3" dmapid="" addressno="110" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[A]" scale="0.01" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="12" name="Phase Voltage C" funccode="3" dmapid="" addressno="111" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="13" name="Phase Current C" funccode="3" dmapid="" addressno="112" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[A]" scale="0.01" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="14" name="Total Discharged Energy" funccode="3" dmapid="" addressno="113" eventactive="FALSE" dataswap="FALSE" valuetype="uint" length="4" unit="[kWh]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="15" name="Total Charged Energy" funccode="3" dmapid="" addressno="115" eventactive="FALSE" dataswap="FALSE" valuetype="uint" length="4" unit="[kWh]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="16" name="Cabinet Temperature" funccode="3" dmapid="" addressno="117" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[C]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="17" name="PEBB1 Temperature" funccode="3" dmapid="" addressno="118" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[C]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+
+<map pointno="20" name="Operation Status#1" funccode="3" dmapid="" addressno="180" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="21" name="Alarm#1" funccode="3" dmapid="" addressno="181" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="22" name="Alarm#2" funccode="3" dmapid="" addressno="182" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="23" name="Operation Status#2" funccode="3" dmapid="" addressno="183" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="24" name="Run Delay Time" funccode="3" dmapid="" addressno="184" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[msec]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+
+<map pointno="25" name="PCS Control" funccode="3" dmapid="" addressno="189" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="26" name="Active power limit" funccode="3" dmapid="" addressno="190" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[kW]" scale="0.1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="27" name="Reactive power limit" funccode="3" dmapid="" addressno="191" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="28" name="SOC upper Level" funccode="3" dmapid="" addressno="192" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[%]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="29" name="SOC Lower Level" funccode="3" dmapid="" addressno="193" eventactive="FALSE" dataswap="FALSE" valuetype="short" length="2" unit="[%]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+
+<map pointno="30" name="BAT. Over Voltage Level" funccode="3" dmapid="" addressno="201" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="31" name="BAT. Under Voltage Level" funccode="3" dmapid="" addressno="202" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="32" name="BAT. CV Mode Upper Level" funccode="3" dmapid="" addressno="203" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="33" name="BAT. CV Mode Lower Level" funccode="3" dmapid="" addressno="204" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+<map pointno="34" name="BAT. Operation Max. Level" funccode="3" dmapid="" addressno="205" eventactive="FALSE" dataswap="FALSE" valuetype="ushort" length="2" unit="[V]" scale="1" min="0" max="65535" description="" val="" timestamp=""/>
+</pcs_o>
+
+</oci_pcsmap>
